@@ -17,8 +17,9 @@
             font-family: 'Times New Roman', Times, serif;
         }
         .isi-atas {
+            margin-top: 70px;
             line-height: 15px;
-            padding-bottom: 50px;
+            padding-bottom: 150px;
         }
         .isi-atas img {
             border-radius: 100%;
@@ -52,12 +53,12 @@
 
         }
         .certificate {
-            display: block;
-            position: relative;
+            /* display: block;
+            position: relative; */
             box-shadow: 5px 5px 5px 5px gray;
             border-radius: 25px;
             max-width: 100%; 
-            display:block; 
+            /* display:block;  */
             height: auto;
         }
         footer{
@@ -101,23 +102,23 @@
 </head>
 <body>
     <div class="isi-atas">
-        <a href="./mamang.jpg"><img src="./mamang.jpg" alt="" title="MyFoto"></a>
-        <h1>Nur Rohman</h1>
+        <a class="mb-5" href="./mamang.jpg"><img src="./mamang.jpg" alt="" title="MyFoto"></a>
+        <h1 class="mt-5">Nur Rohman</h1>
         <h3>College Student | Unemployment</h3>
     </div><br><br>
     <div class="isi-tengah">
         <!-- Bagian Project -->
         <h1>Project</h1>
         <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     <h3>Website</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus beatae voluptatibus recusandae quisquam porro neque reiciendis perspiciatis, iusto laborum, culpa consectetur. Pariatur, corporis nisi cumque consequuntur aperiam quos esse atque?</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <h3>Mobile</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus beatae voluptatibus recusandae quisquam porro neque reiciendis perspiciatis, iusto laborum, culpa consectetur. Pariatur, corporis nisi cumque consequuntur aperiam quos esse atque?</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <h3>Networking</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus beatae voluptatibus recusandae quisquam porro neque reiciendis perspiciatis, iusto laborum, culpa consectetur. Pariatur, corporis nisi cumque consequuntur aperiam quos esse atque?</p>
                 </div>
@@ -131,24 +132,29 @@
 
         <!-- Bagian Certificate -->
         <h1>Certificate</h1>
-        <ul class="table-cf">
-            <li style="padding-right: 20px;">
+        <div class="text-center">
+            
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div>
                 <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 1"></a>
-                <p>Cisco Academy</p>
-            </li>
-            <li style="padding-right: 20px;">
-                <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 2"></a>
-                <p>Mikrotik Academy</p>
-            </li>
-            <li style="padding-right: 20px;">
-                <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 3"></a>
-                <p>Linux System</p>
-            </li>
-            <li style="padding-right: 50px;">
-                <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 4"></a>
-                <p>AWS Certified Developer</p>
-            </li>
-        </ul>
+                    <p>Cisco Academy</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 2"></a>
+                    <p>Mikrotik Academy</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <a href=""><img class="certificate" src="./WM.png" alt="" title="Certificate 3"></a>
+                    <p>Linux System</p>
+                </divstyle=>    
+            </div>
+        </div>
         <!-- Akhir Bagian Certificate -->
     </div>
     <!-- Bagian Footer -->
